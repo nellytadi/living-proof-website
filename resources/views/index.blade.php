@@ -90,7 +90,7 @@
 						<div class="promo-pannel__video">
 						<li class="promo-socials__item"><a class="promo-socials__link" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
 							<img class="img--bg lazy" data-src="{{asset('assets/img/video-cover.jpg')}}" alt="image"/>
-							<a class="video-trigger" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"><span>Watch our video</span><i class="fa fa-play" aria-hidden="true"></i></a>
+							<a class="video-trigger" href="https://www.youtube.com/watch?v=hJetkNPhPPQ"><span>Watch our video</span><i class="fa fa-play" aria-hidden="true"></i></a>
 						</div>
 						<div class="promo-pannel__phones">
 							<p class="promo-pannel__title">Phone numbers</p><a class="promo-pannel__link" href="tel:+180012345678">+ 1800 - 123 456 78</a><a class="promo-pannel__link" href="tel:+18009756511">+ 1800 - 975 65 11</a>
