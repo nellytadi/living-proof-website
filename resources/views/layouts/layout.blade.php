@@ -2,11 +2,11 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8"/>
-		<meta name="description" content="description"/>
-		<meta name="keywords" content="keywords"/>
+		<meta name="description" content="Living Proof is a gender base organization for women (married, unmarried, widows), children and the vulnerable in the society at large."/>
+		<meta name="keywords" content="Living Proof, Gender Based Organisation"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-		<link rel="shortcut icon" href="img/favicon.ico"/>
+		<link rel="shortcut icon" href="{{asset('assets/img/favicon.ico')}}"/>
 		<title>Living Proof Women Foundation International</title>
 		<!-- styles-->
 		<link rel="stylesheet" href="{{asset('assets/css/styles.min.css')}}"/>
