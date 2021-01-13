@@ -184,14 +184,10 @@
 		<!-- scripts-->
 		<script src="{{asset('assets/js/common.min.js')}}"></script>
 		<script src="https://www.google.com/recaptcha/api.js"></script>
-		<script>
-			function onSubmit(token) {
-			  document.getElementById("contact-form").submit();
-			}
-		  </script>
-		 
-		 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" defer></script>
+		
+		<script src="{{asset('assets/js/app.js')}}"></script>
+		
 		 @if(Session::has('status'))
 			 @if(Session::get('status')=="success")
 			 <script>

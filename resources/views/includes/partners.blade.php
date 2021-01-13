@@ -73,12 +73,12 @@
                                 <div class="donors-slider__item">
                                     <div class="donors-slider__img"><img src="{{asset('assets/img/firstbank.jpg')}}" alt="donor"/></div>
                                 </div>
-                                <div class="donors-slider__item">
+                                {{-- <div class="donors-slider__item">
                                     <div class="donors-slider__img"><img src="img/donor_3.png" alt="donor"/></div>
                                 </div>
                                 <div class="donors-slider__item">
                                     <div class="donors-slider__img"><img src="img/donor_4.png" alt="donor"/></div>
-                                </div>
+                                </div> --}}
                                
                             </div>
                         </div>

@@ -7,7 +7,7 @@
 						<div class="promo-slider__item promo-slider__item--style-1">
 							<picture>
 								<source srcset="{{asset('assets/img/promo_1.jpg')}}" media="(min-width: 835px)"/>
-								<source srcset="{{asset('assets/img/promo_1.jpg')}}" media="(min-width: 376px)"/><img class="img--bg" src="{{asset('assets/img/promo_1.jpg')}}" alt="img"/>
+								<source srcset="{{asset('assets/img/promo_1.jpg')}}" media="(min-width: 376px)"/><img class="img--bg lazy" data-src="{{asset('assets/img/promo_1.jpg')}}" alt="img"/>
 							</picture>
 							<div class="container">
 								<div class="row">
@@ -33,7 +33,7 @@
 						<div class="promo-slider__item promo-slider__item--style-2">
 							<picture>
 								<source srcset="{{asset('assets/img/promo_1.jpg')}}" media="(min-width: 835px)"/>
-								<source srcset="{{asset('assets/img/promo_1.jpg')}}" media="(min-width: 376px)"/><img class="img--bg" src="{{asset('assets/img/promo_1.jpg')}}" alt="img"/>
+								<source srcset="{{asset('assets/img/promo_1.jpg')}}" media="(min-width: 376px)"/><img class="img--bg lazy" data-src="{{asset('assets/img/promo_1.jpg')}}" alt="img"/>
 							</picture>
 							<div class="container">
 								<div class="row">
@@ -57,7 +57,7 @@
 						<div class="promo-slider__item promo-slider__item--style-3">
 							<picture>
 								<source srcset="img/promo_3.jpg" media="(min-width: 835px)"/>
-								<source srcset="img/834promo_3.jpg" media="(min-width: 376px)"/><img class="img--bg" src="img/375promo_3.jpg" alt="img"/>
+								<source srcset="img/834promo_3.jpg" media="(min-width: 376px)"/><img class="img--bg lazy" data-src="img/375promo_3.jpg" alt="img"/>
 							</picture>
 							<div class="container">
 								<div class="row">
@@ -89,7 +89,7 @@
 					<div class="promo-pannel"><a class="anchor promo-pannel__anchor" href="#about"> <span>Scroll Down</span></a>
 						<div class="promo-pannel__video">
 						<li class="promo-socials__item"><a class="promo-socials__link" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-							<img class="img--bg" src="{{asset('assets/img/video-cover.jpg')}}" alt="image"/>
+							<img class="img--bg lazy" data-src="{{asset('assets/img/video-cover.jpg')}}" alt="image"/>
 							<a class="video-trigger" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"><span>Watch our video</span><i class="fa fa-play" aria-hidden="true"></i></a>
 						</div>
 						<div class="promo-pannel__phones">
@@ -126,7 +126,7 @@
 								<p>Living Proof women Foundation was founded by <b>Mrs Julie Onovwiona</b> a woman who has so much passion for women as a result of her poor parental  upbringing.</p><a class="button button--primary" href="{{url('/about')}}">More About</a>
 							</div>
 							<div class="col-lg-6 col-xl-5 offset-xl-1">
-								<div class="info-box"><img class="img--layout" src="{{asset('assets/img/about_layout.png')}}" alt="img"/><img class="img--bg" src="{{asset('assets/img/about-us.jpg')}}" alt="img"/>
+								<div class="info-box"><img class="img--layout lazy" data-src="{{asset('assets/img/about_layout.png')}}" alt="img"/><img class="img--bg lazy" data-src="{{asset('assets/img/about-us.jpg')}}" alt="img"/>
 									<h4 class="info-box__title">You too can become a member</h4>
 									<p>Living proof women foundation international  membership is opened to women who are ready to give back to the society by helping the vulnerable, needy, widows etc</p><a class="info-box__link" href="{{url('/become-a-member')}}">Learn More</a>
 								</div>
@@ -148,7 +148,7 @@
 						<div class="row offset-margin">
 							<div class="col-sm-6 col-lg-3">
 								<div class="icon-item">
-									<div class="icon-item__img"><img class="img--layout" src="{{asset('assets/img/icon_1.png')}}" alt="img"/><span class="js-counter">2</span></div>
+									<div class="icon-item__img"><img class="img--layout lazy" data-src="{{asset('assets/img/icon_1.png')}}" alt="img"/><span class="js-counter">2</span></div>
 									<div class="icon-item__text">
 										<p>Years of Experience</p>
 									</div>
@@ -156,7 +156,7 @@
 							</div>
 							<div class="col-sm-6 col-lg-3">
 								<div class="icon-item">
-									<div class="icon-item__img"><img class="img--layout" src="{{asset('assets/img/icon_4.png')}}" alt="img"/><span class="js-counter">15 </span></div>
+									<div class="icon-item__img"><img class="img--layout lazy" data-src="{{asset('assets/img/icon_4.png')}}" alt="img"/><span class="js-counter">15 </span></div>
 									<div class="icon-item__text">
 										<p>Volunteers</p>
 									</div>
@@ -164,7 +164,7 @@
 							</div>
 							<div class="col-sm-6 col-lg-3">
 								<div class="icon-item">
-									<div class="icon-item__img"><img class="img--layout" src="{{asset('assets/img/icon_3.png')}}" alt="img"/><span class="js-counter">500 </span><span>+</span></div>
+									<div class="icon-item__img"><img class="img--layout lazy" data-src="{{asset('assets/img/icon_3.png')}}" alt="img"/><span class="js-counter">500 </span><span>+</span></div>
 									<div class="icon-item__text">
 										<p>People Helped</p>
 									</div>
@@ -172,7 +172,7 @@
 							</div>
 							<div class="col-sm-6 col-lg-3">
 								<div class="icon-item">
-									<div class="icon-item__img"><img class="img--layout" src="{{asset('assets/img/icon_4.png')}}" alt="img"/><span class="js-counter">1 </span><span>M+</span></div>
+									<div class="icon-item__img"><img class="img--layout lazy" data-src="{{asset('assets/img/icon_4.png')}}" alt="img"/><span class="js-counter">1 </span><span>M+</span></div>
 									<div class="icon-item__text">
 										<p>Naira donated</p>
 									</div>
@@ -212,7 +212,7 @@
 											<p>In March 2019, six widows from GWAGWAKADA MASAKA were empowered with cash to start their businesses.</p>
 										</div>
 										<div class="causes-item__img">
-											<a href="{{url('/gallery')}}"><div class="causes-item__badge">View gallery</div></a><img class="img--bg" src="{{asset('assets/img/first-anniversary/gallery-14.jpg')}}" alt="img"/>
+											<a href="{{url('/gallery')}}"><div class="causes-item__badge">View gallery</div></a><img class="img--bg lazy" data-src="{{asset('assets/img/first-anniversary/gallery-14.jpg')}}" alt="img"/>
 										</div>
 									
 									</div>
@@ -226,7 +226,7 @@
 											<p>At the first anniversary held in July 2019, an outreach was done at Kuje where various items viz clothing, food items, cash donations were given out to the vulnerable</p>
 										</div>
 										<div class="causes-item__img">
-											<a href="{{url('/gallery')}}"><div class="causes-item__badge">View gallery</div></a><img class="img--bg" src="{{asset('assets/img/first-anniversary/gallery-6.jpg')}}" alt="img"/>
+											<a href="{{url('/gallery')}}"><div class="causes-item__badge">View gallery</div></a><img class="img--bg lazy" data-src="{{asset('assets/img/first-anniversary/gallery-6.jpg')}}" alt="img"/>
 										</div>
 									
 									</div>
@@ -240,7 +240,7 @@
 											<p>During the lock down of 2020 as a result of COVID 19, the Foundation in June 2020 distributed food items worth one million, six hundred thousand naira worth of food items to various communities in FCT Abuja, Nigeria.</p>
 										</div>
 										<div class="causes-item__img">
-											<a href="{{url('/gallery')}}"><div class="causes-item__badge">View gallery</div></a><img class="img--bg" src="{{asset('assets/img/covid-19/gallery-1.jpg')}}" alt="img"/>
+											<a href="{{url('/gallery')}}"><div class="causes-item__badge">View gallery</div></a><img class="img--bg lazy" data-src="{{asset('assets/img/covid-19/gallery-1.jpg')}}" alt="img"/>
 										</div>
 										
 									</div>
@@ -254,7 +254,7 @@
 											<p>The second year anniversary celebration held in October 2020.</p>
 										</div>
 										<div class="causes-item__img">
-											<a href="{{url('/gallery')}}"><div class="causes-item__badge">View gallery</div></a><img class="img--bg" src="{{asset('assets/img/second-anniversary/gallery-1.jpg')}}" alt="img"/>
+											<a href="{{url('/gallery')}}"><div class="causes-item__badge">View gallery</div></a><img class="img--bg lazy" data-src="{{asset('assets/img/second-anniversary/gallery-1.jpg')}}" alt="img"/>
 										</div>
 										
 									</div>
@@ -268,7 +268,7 @@
 											<p>The last program for the widows and the vulnerable was held on the 29TH of December 2020. To the glory of food items , clothing, cash was given to the need with school bags distributed to the children</p>
 										</div>
 										<div class="causes-item__img">
-											<a href="{{url('/gallery')}}"><div class="causes-item__badge">View gallery</div></a><img class="img--bg" src="{{asset('assets/img/widows-2020/gallery-15.jpg')}}" alt="img"/>
+											<a href="{{url('/gallery')}}"><div class="causes-item__badge">View gallery</div></a><img class="img--bg lazy" data-src="{{asset('assets/img/widows-2020/gallery-15.jpg')}}" alt="img"/>
 										</div>
 										
 									</div>
