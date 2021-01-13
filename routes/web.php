@@ -15,16 +15,28 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
+
 Route::get('/about', function () {
     return view('about');
-});
+})->name('about');
+
 Route::get('/gallery', function () {
     return view('gallery');
-});
+})->name('gallery');
+
+Route::get('/team', function () {
+    return view('team');
+})->name('team');
+
+Route::get('/become-a-member', function () {
+    return view('become-a-member');
+})->name('become-a-member');
+
+
 Route::get('/contact', function () {
     return view('contact');
-});
+})->name('contact');
 Route::get('/donate', function () {
     return view('donate');
 })->name('donate');
@@ -33,9 +45,3 @@ Route::post('/donate/paystack/callback', 'App\Http\Controllers\DonationControlle
 
 Route::post('/contact','ContactController@sendMail')->name('contact');
 
-Route::get('/team', function () {
-    return view('team');
-});
-Route::get('/become-a-member', function () {
-    return view('become-a-member');
-});

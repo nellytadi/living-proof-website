@@ -89,12 +89,12 @@
 							<!-- main menu start-->
 							<nav>
 								<ul class="main-menu">
-									<li class="main-menu__item main-menu__item--active"><a class="main-menu__link" href="{{url('/')}}"><span>Home</span></a></li>
+									<li class="main-menu__item {{Route::currentRouteName() == "index" ? "main-menu__item--active" : ''}}"><a class="main-menu__link" href="{{url('/')}}"><span>Home</span></a></li>
 									
-									<li class="main-menu__item "><a class="main-menu__link" href="{{url('/about')}}"><span>About us</span></a></li>
-									<li class="main-menu__item "><a class="main-menu__link" href="{{url('/team')}}"><span>Our Team</span></a></li>
-									<li class="main-menu__item "><a class="main-menu__link" href="{{url('/gallery')}}"><span>Gallery</span></a></li>
-									<li class="main-menu__item"><a class="main-menu__link" href="{{url('/contact')}}"><span>Contact us</span></a></li>
+									<li class="main-menu__item  {{Route::currentRouteName() == "about" ? "main-menu__item--active" : ''}}"><a class="main-menu__link" href="{{url('/about')}}"><span>About us</span></a></li>
+									<li class="main-menu__item  {{Route::currentRouteName() == "team" ? "main-menu__item--active" : ''}}"><a class="main-menu__link" href="{{url('/team')}}"><span>Our Team</span></a></li>
+									<li class="main-menu__item  {{Route::currentRouteName() == "gallery" ? "main-menu__item--active" : ''}}"><a class="main-menu__link" href="{{url('/gallery')}}"><span>Gallery</span></a></li>
+									<li class="main-menu__item {{Route::currentRouteName() == "contact" ? "main-menu__item--active" : ''}}"><a class="main-menu__link" href="{{url('/contact')}}"><span>Contact us</span></a></li>
 									
 								</ul>
 							</nav>
@@ -152,12 +152,12 @@
 							<!-- footer nav start-->
 							<nav>
 								<ul class="footer-menu">
-									<li class="footer-menu__item footer-menu__item--active"><a class="footer-menu__link" href="{{url('/')}}">Home</a></li>
-									<li class="footer-menu__item"><a class="footer-menu__link" href="{{url('/about')}}">About Us</a></li>
-									<li class="footer-menu__item"><a class="footer-menu__link" href="{{url('/team')}}">Our Team</a></li>
-									<li class="footer-menu__item"><a class="footer-menu__link" href="{{url('/gallery')}}">Gallery</a></li>
-									<li class="footer-menu__item"><a class="footer-menu__link" href="{{url('/become-a-member')}}">Become a member</a></li>
-									<li class="footer-menu__item"><a class="footer-menu__link" href="{{url('/contact')}}">Contact us</a></li>
+									<li class="footer-menu__item {{Route::currentRouteName() == "home" ? "footer-menu__item--active" : ''}}"><a class="footer-menu__link" href="{{url('/')}}">Home</a></li>
+									<li class="footer-menu__item {{Route::currentRouteName() == "about" ? "footer-menu__item--active" : ''}}"><a class="footer-menu__link" href="{{url('/about')}}">About Us</a></li>
+									<li class="footer-menu__item {{Route::currentRouteName() == "team" ? "footer-menu__item--active" : ''}}"><a class="footer-menu__link" href="{{url('/team')}}">Our Team</a></li>
+									<li class="footer-menu__item {{Route::currentRouteName() == "gallery" ? "footer-menu__item--active" : ''}}"><a class="footer-menu__link" href="{{url('/gallery')}}">Gallery</a></li>
+									<li class="footer-menu__item {{Route::currentRouteName() == "become-a-member" ? "footer-menu__item--active" : ''}}"><a class="footer-menu__link" href="{{url('/become-a-member')}}">Become a member</a></li>
+									<li class="footer-menu__item {{Route::currentRouteName() == "contact" ? "footer-menu__item--active" : ''}}"><a class="footer-menu__link" href="{{url('/contact')}}">Contact us</a></li>
 									
 								</ul>
 							</nav>
