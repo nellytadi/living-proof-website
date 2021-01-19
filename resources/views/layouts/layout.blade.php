@@ -63,12 +63,12 @@
 
 					</ul>
 					<!-- aside menu end-->
-					<div class="aside-inner"><span class="aside-inner__title">Email</span><a class="aside-inner__link" href="mailto:contact@livingproofs.org">contact@livingproofs.org</a></div>
+					<div class="aside-inner"><span class="aside-inner__title">Email</span><a class="aside-inner__link" href="mailto:lpwfintl@gmail.com">lpwfintl@gmail.com</a></div>
 					<div class="aside-inner"><span class="aside-inner__title">Phone number</span><a class="aside-inner__link" href="tel:+23492920275">+234 92 920 275</a></div>
 					<ul class="aside-socials">
-						<li class="aside-socials__item"><a class="aside-socials__link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						<li class="aside-socials__item"><a class="aside-socials__link aside-socials__link--active" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-						<li class="aside-socials__item"><a class="aside-socials__link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						{{--<li class="aside-socials__item"><a class="aside-socials__link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>--}}
+						<li class="aside-socials__item"><a class="aside-socials__link" href="https://www.facebook.com/groups/779897679171609"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="aside-socials__item"><a class="aside-socials__link aside-socials__link--active" href="https://www.youtube.com/channel/UCSFKO-LItwMu84OkVOh1V5A/videos"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 					</ul>
 				</div>
 				<div class="aside-dropdown__item"><a class="button button--squared" href="{{url('donate')}}"><span>Donate</span></a></div>
@@ -124,9 +124,9 @@
 
 							<!-- footer socials start-->
 							<ul class="footer-socials">
-								<li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li class="footer-socials__item"><a class="footer-socials__link" href="https://www.facebook.com/groups/779897679171609"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li class="footer-socials__item"><a class="footer-socials__link" href="https://www.youtube.com/channel/UCSFKO-LItwMu84OkVOh1V5A/videos"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+								{{--<li class="footer-socials__item"><a class="footer-socials__link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>--}}
 							</ul>
 							<!-- footer socials end-->
 								
@@ -144,7 +144,7 @@
 								</p>
 								<br>
 								<p class="footer-contacts__phone">Phone: <a href="tel:+23492920275">+23492920275</a></p>
-								<p class="footer-contacts__mail">Email: <a href="mailto:contact@livingproofs.org">contact@livingproofs.org</a></p>
+								<p class="footer-contacts__mail">Email: <a href="mailto:lpwfintl@gmail.com">lpwfintl@gmail.com</a></p>
 							</div>
 						</div>
 						<div class="col-sm-6 col-lg-4">
